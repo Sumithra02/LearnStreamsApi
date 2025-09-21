@@ -9,6 +9,6 @@ import java.util.Optional;
 public class FirstParticularElement {
     public static void main(String[] args) {
         List<String> languages = Arrays.asList("java", "CSharp", "java", "python", "JScript","pascal", "Csharp");
-        Optional<String> opt=languages.stream().filter(str->str.startsWith("h")).findFirst();
+        Optional<String> opt=languages.stream().filter(str->str.startsWith("p")).findFirst();
         opt.ifPresent(System.out::println);
 }}
